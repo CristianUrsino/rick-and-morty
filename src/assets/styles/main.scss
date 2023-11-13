@@ -1,0 +1,22 @@
+@use './parcials/variables' as *;
+@import 'bootstrap/scss/bootstrap';
+
+//GENERAL
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.my-card{
+    text-align: center;
+}
+
+figure{
+    border-radius: 50%;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+    }
+}
